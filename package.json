@@ -2,9 +2,10 @@
   "name": "parcel2test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "public/index.html",
   "scripts": {
-    "dev": "parcel src/index.html"
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
   },
   "browserslist": [
     "> 5% in US",
