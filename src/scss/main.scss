@@ -1,0 +1,52 @@
+@use 'base/reset';
+@use 'base/typography' as type;
+
+$body-color: aliceblue;
+
+body {
+  font-family: type.$family, serif;
+  background-color: $body-color;
+  height: 80vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-variation-settings: "wght" type.$heaviest-weight;
+  text-transform: uppercase;
+}
+
+.hello {
+  max-width: 80ch;
+  padding: 2rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    text-align: center;
+    margin: 2rem;
+  }
+
+  img {
+    width: 60%;
+  }
+
+  &__fig {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  &__capt{
+    font-variation-settings: "wght" type.$medium-weight;
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+
+  p {
+    font-variation-settings: "wght" type.$lightest-weight;
+  }
+}
+

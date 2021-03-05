@@ -1,0 +1,30 @@
+{
+  "name": "parcel2test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
+  "browserslist": [
+    "> 5% in US",
+    "not dead"
+  ],
+  "keywords": [],
+  "author": "Cynthia Teeters <cynthia.teeters@raritanval.edu> (https://github.com/cynthiateeters)",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.617",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.617",
+    "@parcel/packager-css": "^2.0.0-nightly.617",
+    "@parcel/packager-html": "^2.0.0-nightly.617",
+    "@parcel/transformer-css": "^2.0.0-nightly.617",
+    "@parcel/transformer-html": "^2.0.0-nightly.617",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.617",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.617",
+    "@parcel/transformer-sass": "^2.0.0-nightly.617",
+    "parcel": "^2.0.0-beta.1",
+    "postcss": "^8.2.7",
+    "sass": "^1.32.8"
+  }
+}
