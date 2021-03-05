@@ -30,8 +30,10 @@ h1 {
     margin: 2rem;
   }
 
-  img {
+  &__img {
     width: 60%;
+    display: block;
+    margin: auto;
   }
 
   &__fig {
